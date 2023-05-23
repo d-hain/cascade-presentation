@@ -4,11 +4,32 @@ Docker container:
 php bin/console make:Entity
 ```
 Name: User
-| Property | Type   | Length | nullable |
-| -------- | ------ | ------ | -------- |
-| email    | String | 255    | no       |
-| name     | String | 255    | no       |
-| password | String | 255    | no       |
+<table>
+    <tr>
+        <td><strong>Property</strong></td>
+        <td><strong>Type</strong></td>
+        <td><strong>Length</strong></td>
+        <td><strong>nullable</strong></td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>String</td>
+        <td>255</td>
+        <td>no</td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td>String</td>
+        <td>255</td>
+        <td>no</td>
+    </tr>
+    <tr>
+        <td>password</td>
+        <td>String</td>
+        <td>255</td>
+        <td>no</td>
+    </tr>
+</table>
 
 ---
 
